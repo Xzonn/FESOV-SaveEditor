@@ -29,13 +29,13 @@ namespace FESOVSE
         private void openFile_Click(object sender, RoutedEventArgs e)
         {
             OpenFileDialog ofd = new OpenFileDialog();
-            ofd.Filter = "Chapter Files|*"; //filter what shows in the open file dialog box
+            ofd.Filter = "Chapter 文件|*"; //filter what shows in the open file dialog box
             ofd.InitialDirectory = AppDomain.CurrentDomain.BaseDirectory; //set starting directory
             if(ofd.ShowDialog() == true)
             {
                 path = ofd.FileName;
                 if (path.Contains("Chapter") && path.Contains("dec")) loadFile(); //check if file is the right file, load if true
-                else System.Windows.MessageBox.Show("Not a Chapter file OR a decrypted Chapter file");         
+                else System.Windows.MessageBox.Show("此文件不是 Chapter 文件或不是已解密的 Chapter 文件。", "打开文件");
             }
 
         }
@@ -45,9 +45,9 @@ namespace FESOVSE
             if(path != null)
             {
                 File.WriteAllBytes(path, _saveFile);
-                System.Windows.MessageBox.Show("File Saved Successfully");
+                System.Windows.MessageBox.Show("文件保存成功。", "保存文件");
             }
-            else System.Windows.MessageBox.Show("No File Found");
+            else System.Windows.MessageBox.Show("未找到文件。", "保存文件");
 
         }
      
@@ -377,5 +377,9 @@ namespace FESOVSE
 
         #endregion
 
+        private void help_Click(object sender, RoutedEventArgs e)
+        {
+            System.Windows.MessageBox.Show("FIRE EMBLEM Echoes 另一位英雄王 人物编辑器\nGithub 源码：https://github.com/vince11/FESOV-SaveEditor\n汉化：Xzonn\n\n使用方法详见说明文档。", "关于");
+        }
     }
 }
