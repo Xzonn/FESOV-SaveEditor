@@ -1,8 +1,8 @@
 {
-  "name": "echoes-se",
+  "name": "FESOVSaveEditor",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vince11.github.io/echoes-se/",
+  "homepage": "https://xzonn.top/FESOVSaveEditor/",
   "dependencies": {
     "gh-pages": "^1.2.0",
     "react": "^16.4.2",
