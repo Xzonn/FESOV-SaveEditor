@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/echoes-se/static/css/main.7024537e.chunk.css",
-    "main.js": "/echoes-se/static/js/main.0dcf11df.chunk.js",
-    "main.js.map": "/echoes-se/static/js/main.0dcf11df.chunk.js.map",
-    "runtime-main.js": "/echoes-se/static/js/runtime-main.1d80efab.js",
-    "runtime-main.js.map": "/echoes-se/static/js/runtime-main.1d80efab.js.map",
-    "static/js/2.622e6e2e.chunk.js": "/echoes-se/static/js/2.622e6e2e.chunk.js",
-    "static/js/2.622e6e2e.chunk.js.map": "/echoes-se/static/js/2.622e6e2e.chunk.js.map",
-    "index.html": "/echoes-se/index.html",
-    "static/css/main.7024537e.chunk.css.map": "/echoes-se/static/css/main.7024537e.chunk.css.map",
-    "static/js/2.622e6e2e.chunk.js.LICENSE.txt": "/echoes-se/static/js/2.622e6e2e.chunk.js.LICENSE.txt"
+    "main.css": "/FESOVSaveEditor/static/css/main.7024537e.chunk.css",
+    "main.js": "/FESOVSaveEditor/static/js/main.0ad54ea1.chunk.js",
+    "main.js.map": "/FESOVSaveEditor/static/js/main.0ad54ea1.chunk.js.map",
+    "runtime-main.js": "/FESOVSaveEditor/static/js/runtime-main.adc138d5.js",
+    "runtime-main.js.map": "/FESOVSaveEditor/static/js/runtime-main.adc138d5.js.map",
+    "static/js/2.4fba6598.chunk.js": "/FESOVSaveEditor/static/js/2.4fba6598.chunk.js",
+    "static/js/2.4fba6598.chunk.js.map": "/FESOVSaveEditor/static/js/2.4fba6598.chunk.js.map",
+    "index.html": "/FESOVSaveEditor/index.html",
+    "static/css/main.7024537e.chunk.css.map": "/FESOVSaveEditor/static/css/main.7024537e.chunk.css.map",
+    "static/js/2.4fba6598.chunk.js.LICENSE.txt": "/FESOVSaveEditor/static/js/2.4fba6598.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.1d80efab.js",
-    "static/js/2.622e6e2e.chunk.js",
+    "static/js/runtime-main.adc138d5.js",
+    "static/js/2.4fba6598.chunk.js",
     "static/css/main.7024537e.chunk.css",
-    "static/js/main.0dcf11df.chunk.js"
+    "static/js/main.0ad54ea1.chunk.js"
   ]
 }
