@@ -1,0 +1,15 @@
+{
+  "short_name": "FE Echoes 存档编辑器",
+  "name": "《FIRE EMBLEM Echoes 另一位英雄王》存档编辑器",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "256x256",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#e10319",
+  "background_color": "#ffffff"
+}
