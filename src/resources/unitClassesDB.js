@@ -1,307 +1,307 @@
 const unitClasses = [
     {
         "id": "C51B98DC5787885C",
-        "name": "Villager (M)"
+        "name": "村民 (男)"
     },
     {
         "id": "831A98DC2786885C",
-        "name": "Villager (F)"
+        "name": "村民 (女)"
     },
     {
         "id": "4AC058885C6D1EBF",
-        "name": "Cavalier (M)"
+        "name": "战马骑士 (男)"
     },
     {
         "id": "08BF58882C6C1EBF",
-        "name": "Cavalier (F)"
+        "name": "战马骑士 (女)"
     },
     {
         "id": "89A60099B78ACB0C",
-        "name": "Paladin (M)"
+        "name": "圣骑士 (男)"
     },
     {
         "id": "47A500998789CB0C",
-        "name": "Paladin (F)"
+        "name": "圣骑士 (女)"
     },
     {
         "id": "BD41DF7E3385F1C6",
-        "name": "Gold Knight (M)"
+        "name": "黄金骑士 (男)"
     },
     {
         "id": "7B40DF7E0384F1C6",
-        "name": "Gold Knight (F)"
+        "name": "黄金骑士 (女)"
     },
     {
         "id": "0FFE1B4AA175776F",
-        "name": "Soldier"
+        "name": "士兵"
     },
     {
         "id": "A612F3C21E68886D",
-        "name": "Knight"
+        "name": "重骑士"
     },
     {
         "id": "F6DB920958FF7BF2",
-        "name": "Baron"
+        "name": "重骑将军"
     },
     {
         "id": "5A40290862B10470",
-        "name": "Mercenary"
+        "name": "佣兵"
     },
     {
         "id": "66F4C9C39A01F651",
-        "name": "Myrmidon"
+        "name": "剑客"
     },
     {
         "id": "52CF17AB9A7B8DCA",
-        "name": "Dread Fighter"
+        "name": "魔战士"
     },
     {
         "id": "E3E9012321FF7726",
-        "name": "Archer"
+        "name": "弓箭手"
     },
     {
         "id": "B28F72B8D40E4C9A",
-        "name": "Sniper"
+        "name": "狙击手"
     },
     {
         "id": "38B628F2D6A2A4F3",
-        "name": "Bow Knight"
+        "name": "弓骑士"
     },
     {
         "id": "92F226DE6E78A15D",
-        "name": "Fighter"
+        "name": "战士"
     },
     {
         "id": "5A04E7044433696E",
-        "name": "Hero"
+        "name": "勇者"
     },
     {
         "id": "DD0EAFB1433FCFCC",
-        "name": "Mage (M)"
+        "name": "魔道士 (男)"
     },
     {
         "id": "9B0DAFB1133ECFCC",
-        "name": "Mage (F)"
+        "name": "魔道士 (女)"
     },
     {
         "id": "39DC3BC6D5C02953",
-        "name": "Sage"
+        "name": "贤者"
     },
     {
         "id": "9C62D71350DE579C",
-        "name": "Pegasus Knight"
+        "name": "飞马骑士"
     },
     {
         "id": "D74265C1A194D89A",
-        "name": "Falcon Knight"
+        "name": "圣飞马骑士"
     },
     {
         "id": "69705A3B5F5180C6",
-        "name": "Cleric"
+        "name": "修女"
     },
     {
         "id": "F903575FEB1ECE95",
-        "name": "Saint"
+        "name": "圣女"
     },
     {
         "id": "20FDDBEAF653E363",
-        "name": "Priestess (Mage F)"
+        "name": "神官 (魔道士 女)"
     },
     {
         "id": "27FCDBEA4553E363",
-        "name": "Priestess (Celica)"
+        "name": "神官 (赛莉卡)"
     },
     {
         "id": "E8A51124186AFE85",
-        "name": "Princess"
+        "name": "公主"
     },
     {
         "id": "F7F99AE449837761",
-        "name": "Boy"
+        "name": "男孩子"
     },
     {
         "id": "B5F89AE419827761",
-        "name": "Girl"
+        "name": "女孩子"
     },
     {
         "id": "9742C34037AEFAD2",
-        "name": "Lord (Marth)"
+        "name": "领主 (马尔斯)"
     },
     {
         "id": "0942133AA9DEAFCF",
-        "name": "Hero (Ike)"
+        "name": "勇者 (艾克)"
     },
     {
         "id": "EFB6BE25D74AABC5",
-        "name": "Lord (Lucina)"
+        "name": "领主 (露琪娜)"
     },
     {
         "id": "FA8BBF2522E0ABC5",
-        "name": "Tactician (Robin)"
+        "name": "杰西 (鲁弗莱)"
     },
     {
         "id": "185A06A44A912675",
-        "name": "Lord (Roy)"
+        "name": "领主 (罗伊)"
     },
     {
         "id": "503F90DB3CD08E74",
-        "name": "Lord (CorrinM)"
+        "name": "领主 (神威 男)"
     },
     {
         "id": "0E3E90DB0CCF8E74",
-        "name": "Lord (CorrinF)"
+        "name": "领主 (神威 女)"
     },
     {
         "id": "D964005DA93AA3A3",
-        "name": "Conqueror (DLC)"
+        "name": "帝王 (DLC)"
     },
     {
         "id": "81F6224C9BE113CE",
-        "name": "Rigain (DLC)"
+        "name": "美芙 (DLC)"
     },
     {
         "id": "7460F8D7AC561E25",
-        "name": "Spartan (DLC)"
+        "name": "斯巴达 (DLC)"
     },
     {
         "id": "D6402D042A30E3D3",
-        "name": "Oliphantier (DLC)"
+        "name": "大象 (DLC)"
     },
     {
         "id": "572032FD3F4049A8",
-        "name": "Exemplar (DLC)"
+        "name": "泰坦尼亚 (DLC)"
     },
     {
         "id": "E78EF6EE29DD61B3",
-        "name": "Guru (DLC)"
+        "name": "所罗门 (DLC)"
     },
     {
         "id": "E5588604F5D2C4FE",
-        "name": "Harrier (DLC)"
+        "name": "马夏 (DLC)"
     },
     {
         "id": "398FBB505747C11F",
-        "name": "Skogul (DLC)"
+        "name": "结萝露尔 (DLC)"
     },
     {
         "id": "D0537D79EED22FFD",
-        "name": "Yasha (DLC)"
+        "name": "夜叉 (DLC)"
     },
     {
         "id": "CEAF96134A701BC4",
-        "name": "Enchantress (DLC)"
+        "name": "摩甘娜 (DLC)"
     },
     {
         "id": "02825A5FA20BD095",
-        "name": "Fiend"
+        "name": "魔人"
     },
     {
         "id": "0D0D28E04D0CA05D",
-        "name": "Brigand"
+        "name": "盗贼"
     },
     {
         "id": "BE0BFAD1864030EB",
-        "name": "Arcanist"
+        "name": "妖术师"
     },
     {
         "id": "9037EFA118C296D4",
-        "name": "Cantor"
+        "name": "祈祷师"
     },
     {
         "id": "08815A5FAE0AD095",
-        "name": "Witch"
+        "name": "魔女"
     },
     {
         "id": "C56EE1B4938C944D",
-        "name": "Revenant"
+        "name": "僵尸"
     },
     {
         "id": "377579B889EE5A4F",
-        "name": "Entombed"
+        "name": "木乃伊"
     },
     {
         "id": "664B89FC580A3B3C",
-        "name": "Bonewalker"
+        "name": "骷髅"
     },
     {
         "id": "6F4E9854F78B45AC",
-        "name": "Lich"
+        "name": "巫妖"
     },
     {
         "id": "3EC029DFF46EE535",
-        "name": "Gargoyle"
+        "name": "石像鬼"
     },
     {
         "id": "B8875909E4B75FF2",
-        "name": "Deathgoyle"
+        "name": "炎魔"
     },
     {
         "id": "D81A5502DE4A9974",
-        "name": "Necrodragon"
+        "name": "龙僵尸"
     },
     {
         "id": "224C595F145FCF95",
-        "name": "White Dragon"
+        "name": "白龙"
     },
     {
         "id": "FFE63DB7FD3ABF4E",
-        "name": "Mogall"
+        "name": "比格鲁"
     },
     {
         "id": "9A19565FB2A7CD95",
-        "name": "Fell God"
+        "name": "邪神"
     },
     {
         "id": "23D51B8BCB5E75ED",
-        "name": "Mila's Servant"
+        "name": "米拉的仆人"
     },
     {
         "id": "C68A3E760EE2B9D5",
-        "name": "Duma's Apostle"
+        "name": "多玛的使徒"
     },
     {
         "id": "AC37A3DAD8BDFA7F",
-        "name": "Dracul"
+        "name": "德拉库"
     },
     {
         "id": "84E41FF620BD3979",
-        "name": "Titan"
+        "name": "泰坦"
     },
     {
         "id": "83E832D5176CE059",
-        "name": "Guardian"
+        "name": "守护者"
     },
     {
         "id": "68ADE887607F0182",
-        "name": "Garuda"
+        "name": "迦楼罗"
     },
     {
         "id": "6B9C3A078F24E84E",
-        "name": "Vestal"
+        "name": "维斯塔"
     },
     {
         "id": "FB8D384AD9E62632",
-        "name": "Fafnir"
+        "name": "法夫纳"
     },
     {
         "id": "88A21EB5768BB34D",
-        "name": "Dagon"
+        "name": "大衮"
     },
     {
         "id": "BA7A9509B2027EF2",
-        "name": "Balor"
+        "name": "巴罗尔"
     },
     {
         "id": "15538ABD115E6820",
-        "name": "Deimos"
+        "name": "得摩斯"
     },
     {
         "id": "7F0C525F3B40CB95",
-        "name": "Fire Dragon"
+        "name": "火龙"
     },
     {
         "id": "F119565FDFA7CD95",
-        "name": "Fell Dragon"
+        "name": "邪龙"
     }
 ];
 

@@ -1,0 +1,48 @@
+name: Publish
+
+on:
+  push:
+    branches: 
+      - javascript
+  pull_request:
+    branches: 
+      - javascript
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+      with:
+        node-version: 12
+    - name: Cache Node Modules
+      uses: actions/cache@v2
+      env:
+        cache-name: cache-node-modules
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-build-${{ env.cache-name }}-
+          ${{ runner.os }}-build-
+          ${{ runner.os }}-
+    - run: npm install
+    - name: Prepare for Build
+      run: |
+        git clone --depth=1 --branch=gh-pages --single-branch --no-checkout \
+          "https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" \
+          build_git
+    - name: Build Site
+      run: |
+        npm run build
+    - name: Deploy to GitHub
+      run: |
+        cp -rf build/* build_git/
+        pushd build_git/ &>/dev/null
+        : > .nojekyll
+        git add -A
+        git -c user.name=GitHub -c user.email=noreply@github.com commit \
+          -m "From GitHub Actions build ${GITHUB_RUN_NUMBER}"
+        git push
+        popd &>/dev/null

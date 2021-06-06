@@ -1,7 +1,7 @@
 const units = [
     {
         "id": "CDE7C2253782C205",
-        "name": "Alm",
+        "name": "阿鲁姆",
         "baseStats": {
             "hp": 28,
             "atk": 10,
@@ -23,7 +23,7 @@ const units = [
     },
     {
         "id": "07EF94FDE3950E05",
-        "name": "Lukas",
+        "name": "卢卡",
         "baseStats": {
             "hp": 22,
             "atk": 10,
@@ -45,7 +45,7 @@ const units = [
     },
     {
         "id": "174B5327C9CF8706",
-        "name": "Gray",
+        "name": "格莱",
         "baseStats": {
             "hp": 24,
             "atk": 9,
@@ -67,7 +67,7 @@ const units = [
     },
     {
         "id": "BB31AC11BD5EDDFB",
-        "name": "Tobin",
+        "name": "罗宾",
         "baseStats": {
             "hp": 22,
             "atk": 7,
@@ -89,7 +89,7 @@ const units = [
     },
     {
         "id": "365C7326A87A1A06",
-        "name": "Faye",
+        "name": "艾菲",
         "baseStats": {
             "hp": 19,
             "atk": 8,
@@ -111,7 +111,7 @@ const units = [
     },
     {
         "id": "A5A73627F7B07906",
-        "name": "Kliff",
+        "name": "克里夫",
         "baseStats": {
             "hp": 20,
             "atk": 7,
@@ -133,7 +133,7 @@ const units = [
     },
     {
         "id": "60741B289A70EA06",
-        "name": "Silque",
+        "name": "希尔科",
         "baseStats": {
             "hp": 18,
             "atk": 8,
@@ -155,7 +155,7 @@ const units = [
     },
     {
         "id": "24B2362746B87906",
-        "name": "Clair",
+        "name": "克莱尔",
         "baseStats": {
             "hp": 20,
             "atk": 8,
@@ -177,7 +177,7 @@ const units = [
     },
     {
         "id": "3B907DB3F728EC4E",
-        "name": "Clive",
+        "name": "克雷贝",
         "baseStats": {
             "hp": 26,
             "atk": 12,
@@ -199,7 +199,7 @@ const units = [
     },
     {
         "id": "5772CA7B27137033",
-        "name": "Forsyth",
+        "name": "弗鲁斯",
         "baseStats": {
             "hp": 28,
             "atk": 11,
@@ -221,7 +221,7 @@ const units = [
     },
     {
         "id": "624F88176AC0935F",
-        "name": "Python",
+        "name": "帕伊宋",
         "baseStats": {
             "hp": 24,
             "atk": 10,
@@ -243,7 +243,7 @@ const units = [
     },
     {
         "id": "AF47959C9B2644CE",
-        "name": "Luthier",
+        "name": "鲁特",
         "baseStats": {
             "hp": 28,
             "atk": 12,
@@ -265,7 +265,7 @@ const units = [
     },
     {
         "id": "07B0D5DE8F5CDA10",
-        "name": "Mathilda",
+        "name": "玛蒂尔达",
         "baseStats": {
             "hp": 26,
             "atk": 12,
@@ -287,7 +287,7 @@ const units = [
     },
     {
         "id": "6974020975121F44",
-        "name": "Delthea",
+        "name": "迪优特",
         "baseStats": {
             "hp": 22,
             "atk": 11,
@@ -309,7 +309,7 @@ const units = [
     },
     {
         "id": "867D31856A31A019",
-        "name": "Tatiana",
+        "name": "缇塔",
         "baseStats": {
             "hp": 28,
             "atk": 14,
@@ -331,7 +331,7 @@ const units = [
     },
     {
         "id": "E7D93A282DACFA06",
-        "name": "Zeke",
+        "name": "吉克",
         "baseStats": {
             "hp": 40,
             "atk": 20,
@@ -353,7 +353,7 @@ const units = [
     },
     {
         "id": "E5AE9CDB35BB440F",
-        "name": "Mycen",
+        "name": "迈森",
         "baseStats": {
             "hp": 44,
             "atk": 22,
@@ -375,7 +375,7 @@ const units = [
     },
     {
         "id": "C7D28D28D9CA2207",
-        "name": "Celica",
+        "name": "赛莉卡",
         "baseStats": {
             "hp": 20,
             "atk": 8,
@@ -397,7 +397,7 @@ const units = [
     },
     {
         "id": "86B994FD52700E05",
-        "name": "Mae",
+        "name": "梅伊",
         "baseStats": {
             "hp": 20,
             "atk": 9,
@@ -419,7 +419,7 @@ const units = [
     },
     {
         "id": "C05B402C46FAF508",
-        "name": "Boey",
+        "name": "波依",
         "baseStats": {
             "hp": 22,
             "atk": 8,
@@ -441,7 +441,7 @@ const units = [
     },
     {
         "id": "F071A328AC724235",
-        "name": "Genny",
+        "name": "杰妮",
         "baseStats": {
             "hp": 18,
             "atk": 7,
@@ -463,7 +463,7 @@ const units = [
     },
     {
         "id": "238581ED8B73B3D1",
-        "name": "Saber",
+        "name": "赛巴",
         "baseStats": {
             "hp": 22,
             "atk": 9,
@@ -485,7 +485,7 @@ const units = [
     },
     {
         "id": "1664E62A60BC4A08",
-        "name": "Valbar",
+        "name": "巴尔博",
         "baseStats": {
             "hp": 30,
             "atk": 14,
@@ -507,7 +507,7 @@ const units = [
     },
     {
         "id": "360EC426382D4106",
-        "name": "Kamui",
+        "name": "卡姆依",
         "baseStats": {
             "hp": 24,
             "atk": 10,
@@ -529,7 +529,7 @@ const units = [
     },
     {
         "id": "5FF494FDA3990E05",
-        "name": "Leon",
+        "name": "雷欧",
         "baseStats": {
             "hp": 23,
             "atk": 11,
@@ -551,7 +551,7 @@ const units = [
     },
     {
         "id": "23F4062B2D9C5B08",
-        "name": "Palla",
+        "name": "帕奥拉",
         "baseStats": {
             "hp": 28,
             "atk": 12,
@@ -573,7 +573,7 @@ const units = [
     },
     {
         "id": "C8C77167F877FC86",
-        "name": "Catria",
+        "name": "卡秋雅",
         "baseStats": {
             "hp": 24,
             "atk": 11,
@@ -595,7 +595,7 @@ const units = [
     },
     {
         "id": "C924DD07511647AB",
-        "name": "Atlas",
+        "name": "阿特拉斯",
         "baseStats": {
             "hp": 30,
             "atk": 14,
@@ -617,7 +617,7 @@ const units = [
     },
     {
         "id": "FC06A32898274235",
-        "name": "Jesse",
+        "name": "杰西",
         "baseStats": {
             "hp": 28,
             "atk": 11,
@@ -639,7 +639,7 @@ const units = [
     },
     {
         "id": "80B2CB28B2424207",
-        "name": "Sonya",
+        "name": "索尼娅",
         "baseStats": {
             "hp": 24,
             "atk": 13,
@@ -661,7 +661,7 @@ const units = [
     },
     {
         "id": "845D1F1EE06B864E",
-        "name": "Deen",
+        "name": "迪恩",
         "baseStats": {
             "hp": 32,
             "atk": 13,
@@ -683,7 +683,7 @@ const units = [
     },
     {
         "id": "9FC67226B1111A06",
-        "name": "Est",
+        "name": "爱丝特",
         "baseStats": {
             "hp": 20,
             "atk": 9,
@@ -705,7 +705,7 @@ const units = [
     },
     {
         "id": "CCFEAF2A72B13008",
-        "name": "Nomah",
+        "name": "诺玛",
         "baseStats": {
             "hp": 28,
             "atk": 12,
@@ -727,7 +727,7 @@ const units = [
     },
     {
         "id": "0544223A1727BCFF",
-        "name": "Conrad",
+        "name": "孔拉特",
         "baseStats": {
             "hp": 32,
             "atk": 15,
@@ -749,7 +749,7 @@ const units = [
     },
     {
         "id": "96DC98FDD2571105",
-        "name": "Emma",
+        "name": "艾玛",
         "baseStats": {
             "hp": 31,
             "atk": 11,
@@ -771,7 +771,7 @@ const units = [
     },
     {
         "id": "452635116FBCA1FB",
-        "name": "Randal",
+        "name": "兰铎",
         "baseStats": {
             "hp": 32,
             "atk": 13,
@@ -793,7 +793,7 @@ const units = [
     },
     {
         "id": "59D494FD2D830E05",
-        "name": "Yuzu",
+        "name": "游鹤",
         "baseStats": {
             "hp": 26,
             "atk": 15,
@@ -815,7 +815,7 @@ const units = [
     },
     {
         "id": "EFC0B48F4FA55B00",
-        "name": "Shade",
+        "name": "谢德",
         "baseStats": {
             "hp": 30,
             "atk": 12,

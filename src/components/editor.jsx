@@ -16,25 +16,25 @@ class Editor extends Component {
         unitsCache: null,
         dropDowns: {
             unit: {
-                title: "Unit",
+                title: "单位",
                 selected: "",
                 options: [],
                 eventHandler: (e) => this.populateDropDowns(e.target.value)
             },
             item: {
-                title: "Held Item",
+                title: "携带道具",
                 selected: "",
                 options: [],
                 eventHandler: (e) => this.updateItem(e.target.value)
             },
             forge: {
-                title: "Forge",
+                title: "炼成",
                 selected: "",
                 options: [],
                 eventHandler: (e) => this.updateForge(e.target.value)
             },
             unitClass: {
-                title: "Class",
+                title: "职种",
                 selected: "",
                 options: [],
                 eventHandler: (e) => this.updateClass(e.target.value)
@@ -42,55 +42,55 @@ class Editor extends Component {
         },
         statBoxes: {
             lvl: {
-                title: "Level",
+                title: "等级",
                 currentValue: 1,
                 maxValue: 20,
                 minValue: 1,
             },
             exp: {
-                title: "Experience",
+                title: "经验",
                 currentValue: 0,
                 maxValue: 99,
                 minValue: 0,
             },
             hp: {
-                title: "HP",
+                title: "ＨＰ",
                 currentValue: 0,
                 maxValue: 0,
                 minValue: 0,
             },
             atk: {
-                title: "Attack",
+                title: "攻击",
                 currentValue: 0,
                 maxValue: 0,
                 minValue: 0,
             },
             skl: {
-                title: "Skill",
+                title: "技巧",
                 currentValue: 0,
                 maxValue: 0,
                 minValue: 0,
             },
             spd: {
-                title: "Speed",
+                title: "速度",
                 currentValue: 0,
                 maxValue: 0,
                 minValue: 0,
             },
             lck: {
-                title: "Luck",
+                title: "幸运",
                 currentValue: 0,
                 maxValue: 0,
                 minValue: 0,
             },
             def: {
-                title: "Defense",
+                title: "防守",
                 currentValue: 0,
                 maxValue: 0,
                 minValue: 0,
             },
             res: {
-                title: "Resistance",
+                title: "魔防",
                 currentValue: 0,
                 maxValue: 0,
                 minValue: 0,
@@ -100,36 +100,27 @@ class Editor extends Component {
     
     render(){
         return (
-            <div>
-                <div>
-                    {Object.keys(this.state.dropDowns).map(key => (
-                        <DropDown 
-                            key={key}
-                            dropdown={this.state.dropDowns[key]}
-                            onChange={this.state.dropDowns[key].eventHandler}
-                            disabled={(key==="unit") ? false : this.state.buttonsDisabled}
-                        />
-                    ))}
-                </div>
-                <div>
-                    {Object.keys(this.state.statBoxes).map(key => (
-                        <StatBox 
-                            key={key}
-                            statBoxKey={key} 
-                            statbox={this.state.statBoxes[key]}
-                            handleStatChange={this.handleStatChange}
-                            disabled={this.state.buttonsDisabled}
-                        />
-                    ))}
-                </div>
-                <div>
-                    <input type="file" disabled={this.state.hasInput} onChange={this.handleFileInput}/>
-                </div>
-                <div>
-                    <button type="submit" hidden={!this.state.hasInput} onClick={this.downloadFile}>Download</button>
-                </div>
+            <div className="row">
+                {Object.keys(this.state.dropDowns).map(key => (
+                    <DropDown 
+                        key={key}
+                        dropdown={this.state.dropDowns[key]}
+                        onChange={this.state.dropDowns[key].eventHandler}
+                        disabled={(key==="unit") ? false : this.state.buttonsDisabled}
+                    />
+                ))}
+                {Object.keys(this.state.statBoxes).map(key => (
+                    <StatBox 
+                        key={key}
+                        statBoxKey={key} 
+                        statbox={this.state.statBoxes[key]}
+                        handleStatChange={this.handleStatChange}
+                        disabled={this.state.buttonsDisabled}
+                    />
+                ))}
+                <input type="file" disabled={this.state.hasInput} onChange={this.handleFileInput} className="form-control"/>
+                <button type="submit" hidden={!this.state.hasInput} onClick={this.downloadFile} className="btn btn-danger">下载</button>
             </div>
-
         );
     };
 
